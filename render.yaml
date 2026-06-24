@@ -2,8 +2,6 @@ services:
   - type: web
     name: halal-exness-bot
     runtime: node
-    region: oregon
-    plan: free
     buildCommand: npm install
     startCommand: node server.js
     envVars:
